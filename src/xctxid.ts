@@ -59,7 +59,7 @@ async function fetchXDocument(fetchFn: typeof fetch): Promise<Document> {
 
   // Fetch the responsive web app shell. The bare x.com homepage can serve a
   // separate logged-out app that no longer includes the ondemand chunk map.
-  const response = await fetchFn('https://x.com/home', {
+  const response = await fetchFn('https://x.com/i/jf/', {
     headers,
   });
 
